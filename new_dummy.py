@@ -1,1 +1,2 @@
-my new file contents
+print("hello world")
+print("new world")
