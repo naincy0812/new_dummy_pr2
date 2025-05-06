@@ -1,3 +1,1 @@
-print("hello india")
-print("hello world")
-
+hello bengalore
