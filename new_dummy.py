@@ -1,1 +1,2 @@
-my new file contents
+i am naincy
+i live in ranchi
