@@ -1,3 +1,5 @@
+"""Module for calculating Fibonacci sequences."""
+
 def fibonacci(n):
     sequence = []
     a, b = 0, 1
