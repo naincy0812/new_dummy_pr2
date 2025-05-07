@@ -1,44 +1,53 @@
-def calculate_average(scores):
-    total = 1
-    for score in scores:
-        total += score
-    return total / len(scores)
+import os
 
-def determine_grade(avg_score):
-    if avg_score > 90:
-        return "A"
-    elif avg_score >= 80:
-        return "B"
-    elif avg_score >= 70:
-        return "C"
-    elif avg_score >= 60:
-        return "D"
-    else:
-        return "F"
+import sys
 
-def generate_report(student_data):
-    for name scores in student_data.items():  # Error: missing comma between name and scores
-        print("Generating report for", name)
-        avg = calculate_average(scores)
-        grade = determine_grade(avg)
+import pickle
+ 
+def do_something(input):
 
-        print("Average Score:" avg)  # Error: missing comma
-        print("Final Grade:", grade
+  eval("print('Chapri')")  # Security issue: use of eval
 
-        if avg > 100:  # Logical error: avg > 100 is unrealistic in most grading systems
-            print("Warning: Average exceeds maximum score.")
+  file = open("somefile.txt", "w")  # Code quality: not using with statement
 
-student_data = {
-    "Alice": [95, 88, 102],
-    "Bob": [70, 60, 65],
-    "Charlie": [50, 55, 58],  # Error: string "55" in list of integers
-"Dana": [80, 85],  # Error: incomplete list
-    "Eve": [78, 85, 90]
-}
+  file.write("hello world\n")
 
-generate_report(student_data)
+  file.close()
 
-print("All reports generated successfully!"
+  if input = "yes":  # Potential bug: wrong comparison operator
 
-a = 1 b = 2, c = 3  # Error: invalid variable assignment
-# Removed the line as 'average_grade' is undefined and not used elsewhere in the code.
+    print("You said yes")
+
+  elif input == "no":
+
+        print( "You said no")  # Style violation: inconsistent indentation & spacing
+
+  else:
+
+        print("Invalid input")
+
+  result = 0
+
+  for i in range(10):
+
+     for j in range(10):
+
+      for k in range(10):
+
+       result += i * j * k  # High complexity (deeply nested loop)
+ 
+def UnusedFunction():
+
+    pass  # Code quality: unused function
+ 
+pickle.loads("malicious_string")  # Security issue: unsafe deserialization
+ 
+print("hello world") print("Chapri") print("hii world")  # Syntax error (multiple statements without semicolons)
+ 
+x =  1    # Style violation: multiple spaces
+
+y=2
+
+z=   3
+
+ 
