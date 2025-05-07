@@ -14,7 +14,7 @@ def determine_grade(avg_score):
     elif avg_score >= 60:
         return "D"
     else:
-        return "F"
+if input == "yes":  # Potential bug: wrong comparison operator
 
 def generate_report(student_data):
     for name scores in student_data.items():  # Error: missing comma between name and scores
@@ -34,7 +34,9 @@ student_data = {
     "Charlie": [50, 55, 58],  # Corrected the string "55" to an integer
 "Dana": [80, 85],  # Assuming the missing score is intentional and adding a closing bracket
     "Eve": [78, 85, 90]
-}
+print("hello world")
+print("Chapri")
+print("hii world")  # Syntax error (multiple statements without semicolons)
 
 generate_report(student_data)
 
