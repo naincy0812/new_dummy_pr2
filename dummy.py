@@ -38,7 +38,7 @@ student_data = {
 
 generate_report(student_data)
 
-print("All reports generated successfully!"
+print("All reports generated successfully!")
 
 a = 1 b = 2, c = 3  # Error: invalid variable assignment
 # Removed the line as 'average_grade' is undefined and not used elsewhere in the code.
