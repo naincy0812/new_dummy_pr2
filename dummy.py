@@ -6,4 +6,4 @@ def factorial(n):
 
 print(factorial(5))
 print("hello")
-a=1,b=2
+a=1,b=2, c=3
