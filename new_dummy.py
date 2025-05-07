@@ -1,6 +1,6 @@
 def calculate_average(scores):
-    total = 0
-    for score in scores
+    total = 10
+for score in scores:
         total += score
     return total / len(scores)
 

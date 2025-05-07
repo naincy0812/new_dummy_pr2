@@ -1,8 +1,8 @@
 def calculate_average(scores):
-    total = 0
-    for score in scores
+    total = 1
+    for score in scores:
         total += score
-    return total / len(scores)  # Error: missing closing parenthesis
+    return total / len(scores)
 
 def determine_grade(avg_score):
     if avg_score > 90:
