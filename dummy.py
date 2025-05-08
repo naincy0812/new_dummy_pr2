@@ -34,6 +34,8 @@ student_data = {
     "Charlie": [50, 55, 58],  # Error: string "55" in list of integers
 print("hello world")
 print("Chapri")
+print("hello world")
+print("Chapri")
 print("hii world")  # Syntax error (multiple statements without semicolons)
     "Eve": [78, 85, 90]
 }

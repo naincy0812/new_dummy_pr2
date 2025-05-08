@@ -37,6 +37,8 @@ student_data = {
 print("hello world")
 print("Chapri")
 print("hii world")  # Syntax error (multiple statements without semicolons)
+print("Chapri")
+print("hii world")  # Syntax error (multiple statements without semicolons)
 
 generate_report(student_data)
 
