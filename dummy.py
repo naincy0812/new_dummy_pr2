@@ -5,6 +5,8 @@ def calculate_average(numbers):
  content = file.read()
     file.close()
     return content
+    file.close()
+    return content
 
 result = calculate_average([10, 20, 30, None])  # ❌ TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'
 print("Result:", result)

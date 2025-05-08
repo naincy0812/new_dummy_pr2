@@ -6,6 +6,9 @@ def calculate_average(numbers):
         print("Cannot divide by zero")
         return None
     return a / b
+        print("Cannot divide by zero")
+        return None
+    return a / b
 
 result = calculate_average([10, 20, 30, None])  # ❌ TypeError: unsupported operand type(s) for +: 'int' and 'NoneType'
 print("Result:", result)
