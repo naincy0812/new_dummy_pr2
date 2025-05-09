@@ -1,8 +1,7 @@
 def read_file(filepath):
     file = open(filepath, 'r')
     content = file.read()
-    return content 
-    # file.close() is removed from this position
-        # print("HI") is removed from this position
+    file.close()
+return content)
 data = read_file("data.txt")
 print(data)
