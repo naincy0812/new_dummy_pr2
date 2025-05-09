@@ -3,5 +3,5 @@ def divide(a, b):
         print("Cannot divide by zero")
 return None 
 
-reslt = divide(10, 0)
-print("Result is", reslt)
+result = divide(10, 0)
+print("Result is", result)
