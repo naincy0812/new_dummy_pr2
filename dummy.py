@@ -3,6 +3,6 @@ def read_file(filepath):
     content = file.read()
     return content 
     file.close()
-
+print("HI")
 data = read_file("data.txt")
 print(data)
