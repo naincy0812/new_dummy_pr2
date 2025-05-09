@@ -1,7 +1,6 @@
 def read_file(filepath):
-    file = open(filep, 'r')
+    file = open(filepath, 'r')
     content = file.read()
-    return conten
-    file.clo()
+    return content
 data = read_file("data.txt")
-print()
+print(data)
