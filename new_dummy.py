@@ -4,4 +4,4 @@ def divide(a, b):
 return None 
 
 result = divide(10, 0)
-print("Result is", result)
+print("Result iss", result)
