@@ -1,27 +1,23 @@
 def read_file(filepath):
-    file = open(filepath, 'r')
+    file = open(filepath, 'r')  # ❌ file not closed
     content = file.read()
     return content
 
 def write_file(filepath, content):
 file = open(filepath, 'w')  # ❌ IndentationError
-file.write(content)
-file.close()
+    file.write(content)
+    file.close()
 
-class FileProcessor:
-    def __init__(self, path):
-        path = path  # ❌ should be self.path = path
+class FileReader:
+    def __init__(self, filename):
+        self.filename = filename
 
-    def process_file():
-        data = read_file(self.path)  # ❌ missing 'self' in function definition
-        modified = self.modify_content(data)
-        write_file(self.path, modified)
+    def load(self):
+        return read_file(self.filename)
 
-    def modify_content(self, content):
-        return content.upper()
+class FileWriter:
+    def __init__(self, file):
+        file = file  # ❌ should be self.file = file
 
-data = read_file("data.txt")
-print(data)
-
-processor = FileProcessor("data.txt")
-processor.process_file()  # ❌ This will raise AttributeError due to self.path not being set
+    def save(self, content):
+        write_file(self.file, content)  # ❌ self.file doesn't exist
